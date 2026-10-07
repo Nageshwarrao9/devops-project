@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: '<YOUR_GIT_REPOSITORY_URL>'
+                    url: 'https://github.com/Nageshwarrao9/devops-project.git'
             }
         }
 
